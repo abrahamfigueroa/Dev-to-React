@@ -5,10 +5,8 @@ function NavBar () {
         <nav
   class="navbar sticky-top container-fluid row-md"
   style="background-color: #ffffff"
-  ;
   >
   <div class="container-md d-flex justify-content-between">
-    <!-- Logo y search bar se colocan a la izquierda -->
     <div class="d-flex">
       <div class="me-3">
         <div class="div div__container-img d-flex align-items-center">
@@ -43,7 +41,6 @@ function NavBar () {
         </form>
       </div>
     </div>
-    <!-- create-post button, bell and avatar are placed to the right -->
     <div class="d-flex align-items-center gap-3 dropdown">
       <button onclick="window.location.href='./create-post.html'" class="d-none d-sm-none d-md-none d-lg-block btn btn-purple btn-outline-purple fw-bold" type="button">
         Create Post
